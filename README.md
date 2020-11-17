@@ -1,10 +1,13 @@
+### BORING SHELL 
+This shell was created as a part of OS Course Assignment 3 and Assignment 4. The entire commit history can be found [here](https://github.com/PulakIIIT/OS_Course_Assignments).
+
 #### Some Notes 
 - Max length of string commands is 5000 characters (can be changed in headers.h)
 - Memory in pinfo is shown in KB
 - Not implemented "and" and "or" operation for commands
 - Background commands syntax is like bash eg cmd1 & cmd2 & cmd3
 - Tested on Ubuntu 18.04 and fedora 30
-- /proc and <signal.h> are supported
+- /proc and <signal.h> are required 
 - CTRL-D / quit command are used to exit the shell safely
 - CTRL-C / CTRL-Z signal are blocked by shell
 - Redirection handled like bash (no multi io)
